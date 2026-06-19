@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 20px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.subscriptions-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.card {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 260px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.card h3 {
+    margin-top: 0;
+    color: #333;
+}
+.price {
+    font-size: 28px;
+    color: #2c7da0;
+    margin: 15px 0;
+}
+.price span {
+    font-size: 16px;
+}
+button {
+    background-color: #2c7da0;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+button:hover {
+    background-color: #1f5e7a;
+}
+.note {
+    text-align: center;
+    margin-top: 30px;
+    color: #666;
+}
+
+.card select, .card .total-price {
+    margin: 10px 0;
+}
+.total-price {
+    font-weight: bold;
+    color: #2c7da0;
+    font-size: 1.2em;
+}

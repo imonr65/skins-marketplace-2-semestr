@@ -1,0 +1,5 @@
+databaseChangeLog:
+  - include:
+      file: 001_create_skin_templates_table.sql
+  - include:
+      file: 002_insert_into_skin_templates.sql

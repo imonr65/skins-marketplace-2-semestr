@@ -1,0 +1,183 @@
+.profile-body {
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-container {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1.5rem;
+}
+
+.profile-title {
+    color: #1a3e60;
+    border-left: 4px solid #1a73e8;
+    padding-left: 1rem;
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+.profile-card {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+}
+.profile-avatar {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 60px;
+    border: 3px solid #eef2f6;
+}
+.info-section p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    color: #2c3e50;
+}
+.info-section strong {
+    color: #1a3e60;
+}
+
+.section-box {
+    background: white;
+    border-radius: 16px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.03);
+    border: 1px solid #eef2f6;
+}
+.section-box h2, .section-box h3 {
+    margin-top: 0;
+    color: #1a3e60;
+    font-weight: 500;
+}
+
+.btn-secondary, .btn-subscribe, .btn-sell, .btn-link, .btn-logout {
+    display: inline-block;
+    background: #eef2fa;
+    color: #1a73e8;
+    padding: 0.5rem 1.2rem;
+    border-radius: 30px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: all 0.2s;
+    border: none;
+    cursor: pointer;
+}
+.btn-secondary:hover, .btn-subscribe:hover, .btn-sell:hover, .btn-link:hover, .btn-logout:hover {
+    background: #e0e8f2;
+    color: #0c5fcf;
+}
+.btn-sell {
+    background: #eef2fa;
+    color: #1a73e8;
+    font-size: 0.85rem;
+    padding: 0.3rem 1rem;
+}
+.btn-logout {
+    background: #fef3f2;
+    color: #c5221f;
+}
+.btn-logout:hover {
+    background: #fde7e5;
+    color: #a50e0e;
+}
+
+.action-links {
+    display: flex;
+    gap: 1.5rem;
+    margin: 1rem 0 2rem;
+    flex-wrap: wrap;
+}
+.action-links a {
+    text-decoration: none;
+    color: #1a73e8;
+    font-weight: 500;
+    background: #eef2fa;
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+}
+.action-links a:hover {
+    background: #e0e8f2;
+}
+
+.inventory-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+.skin-card {
+    background: #ffffff;
+    border-radius: 16px;
+    border: 1px solid #eef2f6;
+    padding: 1rem;
+    transition: box-shadow 0.2s;
+}
+.skin-card:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+.skin-image {
+    width: 100%;
+    max-height: 150px;
+    object-fit: contain;
+    margin-bottom: 0.5rem;
+}
+.skin-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    font-size: 0.85rem;
+    color: #2c3e50;
+}
+.listing-status {
+    color: #2e7d32;
+    font-size: 0.8rem;
+    background: #e8f5e9;
+    padding: 0.2rem 0.5rem;
+    border-radius: 12px;
+    display: inline-block;
+    margin: 0.5rem 0 0;
+}
+.sell-form {
+    margin-top: 0.75rem;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.sell-form input {
+    flex: 1;
+    padding: 0.3rem 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 0.85rem;
+}
+.empty-message {
+    text-align: center;
+    color: #7f8c8d;
+    padding: 2rem;
+}
+
+.bottom-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #e2e8f0;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.logout-form {
+    margin: 0;
+}
